@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #19a2ae;
+  min-height: 100vh;
+  background-image: url(..//images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+}
+
+.container .card {
+  width: 87.5%;
+  margin-top: 14.3rem;
+  border-radius: 1.8rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  max-width: 35rem;
+}
+
+.container .card .hero {
+  width: 100%;
+  height: 14.2rem;
+  border-top-left-radius: 1.8em;
+  border-top-right-radius: 1.8rem;
+}
+
+.container .card .image {
+  margin-top: -5rem;
+}
+
+.container .card .image img {
+  border-radius: 50%;
+  border: 0.5rem solid white;
+}
+
+.container .card .desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5rem;
+  gap: 1rem;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.container .card .desc .name {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.container .card .desc .age {
+  font-size: 1.7rem;
+  color: #6a6f81;
+}
+
+.container .card .city {
+  font-size: 1.4rem;
+  text-align: center;
+  margin-top: 0.5rem;
+  padding-bottom: 2.8rem;
+  width: 100%;
+}
+
+.container .card .city p {
+  color: #6a6f81;
+  font-weight: 500;
+}
+
+.container .card .line {
+  background-color: #e0dddd;
+  width: 100%;
+  height: 1px;
+}
+
+.container .card .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 2.2rem 2rem;
+}
+
+.container .card .footer .stats {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 2.6rem;
+}
+
+.container .card .footer .stats h4 {
+  font-size: 1.7rem;
+}
+
+.container .card .footer .stats p {
+  color: #6a6f81;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  word-spacing: 0.4rem;
+}
+/*# sourceMappingURL=styles.css.map */

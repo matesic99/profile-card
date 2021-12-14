@@ -1,0 +1,106 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    background-color: $dark-cyan;
+    min-height: 100vh;
+    background-image: url(..//images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 48vw bottom 40vh,
+    left 45vw top 44vh;
+    .card{
+        width: 87.5%;
+        margin-top: 14.3rem;
+        border-radius: 1.8rem ;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        max-width: 35rem;
+
+        .hero{
+            width: 100%;
+            height: 14.2rem;
+            border-top-left-radius: 1.8em;
+            border-top-right-radius: 1.8rem;
+        }
+        .image{
+            margin-top: -5rem;
+            img{
+            border-radius: 50%;
+            border: 0.5rem solid white;
+            }
+        }
+        .desc{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 1.5rem;
+            gap:1rem;
+            flex-direction: row;
+
+            .name{
+                font-size: 1.8rem;
+                font-weight: 700;
+            }
+            .age{
+                font-size: 1.7rem;
+                color: $dar-grayish-blue;
+            }
+        }
+
+            .city{
+                font-size: 1.4rem;
+                text-align: center;
+                margin-top: 0.5rem;
+                padding-bottom: 2.8rem;
+                width: 100%;
+                p{
+                color:$dar-grayish-blue;
+                font-weight: 500;
+
+                }
+            }
+            .line{
+                background-color:rgb(224, 221, 221);
+                width: 100%;
+                height: 1px;
+            }
+            .footer{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                padding: 2.2rem 2rem;
+                
+                .stats{
+                    flex-direction: row;
+                    font-weight: 700;
+                    text-align: center;
+                    padding: 0 2.6rem;
+
+                    h4{
+                        font-size: 1.7rem;
+                    }
+                    p{
+                        color: $dar-grayish-blue;
+                        margin-top: 0.5rem;
+                        font-size: 1.2rem;
+                        font-weight: 500;
+                        word-spacing: 0.4rem;
+                    }
+
+                }
+
+            }
+
+
+
+
+
+        }
+}
